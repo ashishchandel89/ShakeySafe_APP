@@ -59,9 +59,9 @@ Future improvements may include more sensitivity controls and background optimiz
 
 <b> Developer</b>
 
-Ashish Chandel
-B.Tech CSE Student
-Android Application Developer
+Ashish Chandel</br>
+B.Tech CSE Student</br>
+Android Application Developer</br>
 
 <b>Note</b>
 
