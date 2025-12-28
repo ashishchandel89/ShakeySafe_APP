@@ -1,0 +1,22 @@
+# Ignore build folders
+/build
+/app/build
+
+# Ignore Android Studio files
+.idea
+*.iml
+
+# Ignore gradle cache
+.gradle
+/local.properties
+
+# Ignore signing key files
+*.jks
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore zip or apk exports
+*.zip
+*.apk

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:orientation="horizontal"
+       android:padding="12dp"
+       android:background="@drawable/shape"
+       >
+       <ImageButton
+           android:id="@+id/b2"
+           android:layout_width="64dp"
+           android:layout_height="40dp"
+           android:background="@drawable/shape"
+           android:onClick="f2"
+           android:padding="8dp"
+
+           android:src="@drawable/left2"
+           android:textColor="#FFFFFF"
+           android:textSize="12dp"
+           android:tint="#FFFFFF"></ImageButton>
+
+   </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="34dp"
+        android:text="Terms and Conditions📜"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        android:textColor="#000000"></TextView>
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+    android:layout_marginTop="6dp"
+    android:lineSpacingExtra="2dp"
+    android:padding="16dp"
+    android:justificationMode="inter_word"
+    android:hyphenationFrequency="normal"
+    android:lineSpacingMultiplier="1.3"
+
+        android:text="
+By entering the phone numbers of two trusted contacts, you give permission to this app to reach them via SMS or phone call in emergency situations.
+
+You confirm that these individuals are aware and have agreed to be added. You are responsible for entering correct and updated contact numbers.
+
+The app uses these numbers only for emergency alerts. Your data stays on your device and is not shared with anyone.
+
+This app may detect emergencies using phone sensors, such as shaking or panic button, and will send alerts to your selected contacts.
+
+Please note: the app’s performance may be affected by low battery, poor signal, or denied permissions. We do not guarantee that alerts will always be sent or received successfully."
+        android:textSize="12dp"
+    android:textColor="#413F3F"
+        android:textStyle="normal"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:lineSpacingExtra="2dp"
+        android:padding="16dp"
+        android:justificationMode="inter_word"
+        android:hyphenationFrequency="normal"
+        android:lineSpacingMultiplier="1.3"
+        android:text="
+Permissions Required:
+
+SMS: to send emergency messages
+
+CALL: to dial emergency contacts
+
+Location (Optional): to share GPS if enabled
+
+By tapping Continue, you accept these terms and agree to use the app at your own risk. The app developers are not liable for any missed alerts, misuse, or damage caused.
+
+If you disagree, please exit the app."
+        android:textSize="12dp"
+        android:textColor="#413F3F"
+        android:textStyle="normal"
+        ></TextView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I agree to the terms."
+        android:textColor="#191919"
+        android:textSize="15dp"
+        android:id="@+id/c1"
+        android:layout_marginHorizontal="22dp"
+        android:textStyle="normal"
+        ></CheckBox>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="28dp"
+        android:text="Add any emergency contacts (like mom or friend)"
+        android:layout_marginTop="12dp"
+        android:textSize="15dp"
+        android:textColor="#000000"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:hint="eg: 896790****"
+        android:textColorHint="#ABA8AB"
+       android:layout_marginTop="14dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="18dp"
+        android:inputType="number"
+        android:padding="8dp"
+        android:id="@+id/et1"
+        android:background="@drawable/shape2"
+        ></EditText>
+
+    <ImageButton
+        android:id="@+id/b1"
+        android:layout_width="64dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="265dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shape3"
+        android:onClick="f1"
+        android:padding="8dp"
+
+        android:src="@drawable/right"
+        android:textColor="#FFFFFF"
+
+        android:textSize="12dp"
+        android:tint="#FFFFFF"></ImageButton>
+
+
+</LinearLayout>
