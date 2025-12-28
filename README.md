@@ -50,9 +50,9 @@ The app is designed to be simple and reliable, especially during emergency situa
 
 Sensors (motion detection)
 
-Git & GitHub
+1) Git & GitHub
 
-Project Status
+2) Project Status
 
 Completed as a learning-based Android project.
 Future improvements may include more sensitivity controls and background optimization.
